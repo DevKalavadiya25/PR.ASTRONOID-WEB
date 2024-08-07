@@ -1,9 +1,10 @@
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     /* cursor: url('./images/rocket.png'),auto; */
 }
+
 body {
     margin: 0;
     /* font-family: 'Arial', sans-serif; */
@@ -16,7 +17,7 @@ body {
     /* flex-wrap: wrap; */
     /* cursor: url('./images/rocket.png'),auto; */
 
-    
+
 }
 
 .container {
@@ -27,7 +28,7 @@ body {
     gap: 2rem;
     /* max-width: 1000px; */
     margin: 0 auto;
-    /* border: 1px solid red; */
+    border: 1px solid red;
     /* flex-wrap: wrap; */
 }
 
@@ -35,11 +36,12 @@ body {
     display: flex;
     align-items: center;
     /* gap: 1rem; */
-    justify-content:space-around;
-    /* border: 1px solid red; */
-    width:100%;
-    cursor: url('./images/game.png'),auto;
+    justify-content: space-around;
+    border: 1px solid red;
+    width: 100%;
+    cursor: url('./images/rocket.png'), auto;
 }
+
 .nav a:hover {
     color: aqua;
     /* cursor: url('./images/rocket.png'),auto; */
@@ -51,8 +53,8 @@ body {
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    /* border: 1px solid red; */
-    cursor: url('./images/rocket.png'),auto;
+    border: 1px solid red;
+    cursor: url('./images/rocket.png'), auto;
 }
 
 .logo img {
@@ -68,7 +70,7 @@ body {
     display: flex;
     gap: 4rem;
     /* width:100%; */
-    /* border: 1px solid red; */
+    border: 1px solid red;
 }
 
 .nav a {
@@ -76,20 +78,20 @@ body {
     text-decoration: none;
 }
 
-.nav .dropdown {
+/* .nav .dropdown {
     position: relative;
-}
+} */
 
 
-.nav .dropdown-content a {
+/* .nav .dropdown-content a {
     display: block;
     color: #fff;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
     text-align: left;
-    /* border: 1px solid red; */
-}
+    border: 1px solid red;
+} */
 
 
 .hero {
@@ -97,31 +99,33 @@ body {
     justify-content: space-between;
     align-items: center;
     gap: 2rem;
-    width:89%;
-    /* border: 1px solid red; */
+    width: 89%;
+    border: 1px solid red;
     /* flex-wrap: wrap; */
 }
 
 .hero-text {
     text-align: left;
-    font-size:82px;
+    font-size: 82px;
 }
 
 .hero-text h1 {
     font-size: 3rem;
     margin-bottom: 1rem;
-    /* border: 1px solid red; */
+    border: 1px solid red;
 }
 
 .hero-text p {
     font-size: 1.2rem;
     line-height: 1.5;
     margin-bottom: 2rem;
-    /* border: 1px solid red; */
+    border: 1px solid red;
 }
 
 .hero-image {
     width: 400px;
+    border: 1px solid red;
+
 }
 
 .hero-image img {
@@ -129,10 +133,15 @@ body {
     height: auto;
 }
 
+.hero-image:hover {
+    box-shadow: 2px 2px 15px 0.5px #da821f;
+    transition:0.5s ease-in-out;
+}
+
 .btn {
     display: flex;
     gap: 1rem;
-    /* border: 1px solid red; */
+    border: 1px solid red;
 }
 
 .btn button {
@@ -142,13 +151,13 @@ body {
     padding: 0.5rem 2rem;
     font-size: 1.2rem;
     cursor: pointer;
-    /* border: 1px solid red; */
+    border: 1px solid red;
 }
 
 .btn button:hover {
     background-color: #d92dfc;
-    transition:0.5s ease-in-out;
-    border-radius:15px;
+    transition: 0.5s ease-in-out;
+    border-radius: 15px;
 }
 
 .stats {
@@ -157,19 +166,22 @@ body {
     align-items: center;
     gap: 2rem;
     max-width: 1000px;
-    /* border: 1px solid red; */
+    border: 1px solid red;
     /* float: right; */
     justify-content: flex-end;
-    margin-right:888px;
+    margin-right: 888px;
     /* flex-wrap: wrap; */
 }
-.line{
-    margin-top:-17px;
+
+.line {
+    margin-top: -17px;
 }
 
 
 .stat {
     text-align: center;
+    border: 1px solid red;
+
 }
 
 .stat h2 {
@@ -181,13 +193,15 @@ body {
     font-size: 1rem;
     color: #999;
 }
-.join-discord{
-    padding:8px 15px;
-    margin-top:-5px;
+
+.join-discord {
+    padding: 8px 15px;
+    margin-top: -5px;
     background-color: #c981eb;
 }
-.join-discord:hover{
-    border-radius:15px;
+
+.join-discord:hover {
+    border-radius: 15px;
     background-color: #d92dfc;
-    transition:0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
 }
